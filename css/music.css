@@ -1,0 +1,148 @@
+/* GENERAL */
+*{
+    margin: 0 auto;
+}
+body{
+    background-image: url('../img/emilia-music-top.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    
+}
+/* HEADER */
+ul a{
+    text-decoration: none;
+    color: black;   
+}
+ul{
+    font-family: 'Open Sans';
+    background-color: rgba(255, 255, 255, 0.604);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    padding: 10px;
+}
+ul li{
+    text-decoration: none;
+      color: rgba(255, 0, 0, 0); list-style-type: disc; 
+    } 
+ol a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+ol{
+    font-family: 'Open Sans';
+    text-align: center;
+    word-spacing: 10px;
+    padding: 0;
+}
+/* CONTENIDO */
+h1{
+    margin-top: 40px;
+    font-family: Raleway;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.lista1{
+    margin-top: 30px;
+    margin-left: 5px;
+    font-family: 'Open Sans';
+    list-style: none;
+    text-align: left;
+}
+
+
+.lista1 ol{
+    font-family: 'Open Sans';
+    list-style: none;
+    color: rgb(124, 123, 123);
+    text-align: left;
+    margin-left: 5px;
+}
+.lista1 ol li{
+
+    font-family: 'Open Sans';
+    list-style: none;
+    color: rgb(124, 123, 123);
+}
+.lista1 ol li a{
+    /*  margin-left: -30px; */
+     font-family: 'Open Sans';
+     list-style: none;
+     color: rgb(124, 123, 123);
+ }
+ .lista2{
+    font-family: 'Open Sans';
+    list-style: none;
+    text-align: left;
+}
+.baner{
+    width: 100%;
+}
+/* VIDEOS */
+
+h2{
+    font-family: Raleway;
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+iframe{
+    width: 100%;
+}
+
+P{
+    font-family:'Open Sans';
+    /* font-weight: bolder; */
+    margin-top: -70px;
+    margin-left: 10px;
+}
+.top{
+    display: none;
+}
+
+
+/* PARA LAPTOP */
+@media(min-width:1024px){
+    /* HEADER */
+    ul, ol{
+        text-align: right;
+       padding-right: 15px;
+    }
+    /* CONTENIDO */
+    h1{
+        margin-top: 150px;
+    }
+    h2{
+        text-align: left;
+    }
+    .top{
+        display: inline;
+        text-decoration: none;
+        font-family: 'Open Sans';
+        color: rgb(124, 123, 123);
+        margin-left: 10px;
+    }
+    iframe{
+        width:80%;
+    }
+    .baner{
+        width: 80%;
+    }
+    p{
+        margin-top: 5px;
+    }
+}
+@media(min-width:1440px){
+    .baner{
+        width: 70%;
+    }
+    iframe{
+        width: 70%;
+    }
+}

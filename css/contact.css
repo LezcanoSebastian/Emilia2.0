@@ -1,0 +1,82 @@
+/* GENERAL */
+
+*{
+    margin: 0 auto;
+}
+/* HEADER */
+ul a{
+    text-decoration: none;
+    color: black;
+    
+}
+ul{
+    font-family: 'Open Sans';
+    text-align: center;
+    margin-top: 5px;
+}
+ol a{
+    text-decoration: none;
+    color: black;
+    
+}
+ol{
+    font-family: 'Open Sans';
+    text-align: center;
+    margin-top: 5px;
+    word-spacing: 5px;
+}
+/* TITULOS Y OTROS */
+h1{
+    margin-top: 60px;
+    font-family: Raleway;
+    font-size: 30px;
+    margin-left: 10px;
+}
+h2{
+    font-family: Raleway;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+/* CONTACTOS */
+ #contact{
+    margin-top: 20px;
+}
+ #contactos{
+    text-align: left;
+    font-family: 'Open Sans';
+    list-style: none;
+    padding-left: 5px;
+}
+#contactos li{
+    font-weight: bolder;
+}
+.normal{
+    font-weight: normal;
+}
+.verde{
+    color: #44cec9;
+}
+@media(min-width:768px){
+    ol,ul{
+        text-align: right;
+        padding-right: 10px;
+    }
+     #contact{
+        font-size: 20px;
+    }
+}
+@media(min-width:1024px){
+    h1{
+        font-size: 60px;
+        margin-top: 150px;
+    }
+    h2{
+        font: 25px;
+    }
+    ol, ul{
+        font-size: large;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+}
